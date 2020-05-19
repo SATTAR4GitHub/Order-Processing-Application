@@ -1,0 +1,59 @@
+/*  main.css
+*   This is a styling file for the mainView.php
+*   Author     : Abdus Sattar Mia
+*/
+
+/*nav form input{
+    margin: 15px 0 0 50px;
+    padding: 7px;
+    border-radius: 3px;
+}*/
+/*h3{
+    float: right;
+    color: #C71585;
+    margin-top: 0;
+}
+h3 a{
+    text-decoration: none;
+}
+h3 a:hover{
+    color: red;
+}*/
+table{
+    clear:both;
+}
+table th{
+    color: #000080;;
+    font-size:1.1em;
+}
+/*table td{
+    color: darkslategray;
+    padding: 18px;
+}*/
+
+table td .viewform input{
+    color: #800080;
+    background-color: #B0E0E6;
+    padding:8px;
+    font-weight: bold;
+}
+table td .updateform input{
+    color: darkgoldenrod;
+    background-color: #B0E0E6;
+    padding:8px;
+    font-weight: bold;
+
+}
+table td .deleteform input{
+    color: red;
+    background-color: #B0E0E6;
+    font-weight: bold;
+    padding:3px 12px 3px 12px;
+    font-size: 1.3em;
+}
+.footer {
+    border-top: 1px solid darkslategray;
+    margin-top: 50px;
+    
+}
+

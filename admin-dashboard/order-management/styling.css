@@ -1,0 +1,145 @@
+/*
+*   This is a css styling file. This file contains styling for all the php and HTML files.
+*   Author     : Abdus Sattar Mia
+*/
+/*body{
+    background-color:#FFE4C4;
+}*/
+
+h2{
+    margin-left: 15px;
+}
+.header{
+    background-color: #F4A460;
+    height: 60px;
+    width: 103%;
+    margin: -20px -15px 0 -10px;
+}
+.containerNew{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#F8F9F9 ;
+}
+.formdesign{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 6px;
+}
+.forminput{
+    padding: 2px;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-size: 1.1em;
+}
+
+.customizedField{
+  background-color: white;
+  padding: 4px;
+  border: 2px solid #1a8cff; 
+  border-radius: 5px;
+}
+
+label{
+    display:inline-block;
+    width:80px;
+}
+
+/*.button{
+    padding: 6px;
+    background-color: #FFEFD5;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 50px 0 0 80px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: #2A25A1;
+}*/
+
+/*
+*mainView.php styling
+*/
+/*nav {
+    position: relative;
+    height: 60px;
+    width: 103%;
+    margin: -20px -15px 0 -10px;
+    background-color: #F4A460;
+}
+nav li {
+    list-style: none;
+}*/
+/*nav a {
+    float: left;
+    text-decoration: none;
+    border-radius:0;
+    margin-top: 5px;
+    font-size: 1.6em;
+    color:#C71585;
+    padding: 5px;
+}*/
+/*nav a:hover{
+    color: darkviolet;
+}*/
+
+.div-left{
+    margin-left: 15px;
+}
+
+.div-team{
+    font-size: 1.2em;
+}
+.margin-div{
+    margin: 20px 0 0 30px;
+}
+
+#tryAgain{
+    margin: 20px 0 0 0px;
+}
+#tryAgain a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#tryAgain a:hover {
+    color: green;
+}
+
+
+td .star{
+    color:red;
+}
+
+
+
+.footer{
+    background: #152F4F;
+    color:white;
+
+    .links{
+        ul {list-style-type: none;}
+        li a{
+            color: white;
+            transition: color .2s;
+            &:hover{
+                text-decoration:none;
+                color:#4180CB;
+            }
+        }
+    }  
+    .about-company{
+        i{font-size: 25px;}
+        a{
+            color:white;
+            transition: color .2s;
+            &:hover{color:#4180CB}
+        }
+    } 
+    .location{
+        i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+
+

@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Mar-2020, 10:14:37 AM
+    Author     : Ashwi
+*/
+
+
+#img1{
+    margin: -0px;   
+}
+
+#buttonCreate{
+    position: absolute;
+    margin-top: 265px;
+    margin-left: -50px;
+
+}
+
+
+
+#mainBox{
+    background-color: black;
+
+}
+
+
+
+
+#header{
+    font-size: 22px;
+    /*    color: white;
+    }*/
+}
+
+#home,#manage,#order,#contact {
+    font-size: 17px;
+
+
+}
+
+
+
+
+
+.footer{
+    background: #152F4F;
+    color:white;
+
+    .links{
+        ul {list-style-type: none;}
+        li a{
+            color: white;
+            transition: color .2s;
+            &:hover{
+                text-decoration:none;
+                color:#4180CB;
+            }
+        }
+    }  
+    .about-company{
+        i{font-size: 25px;}
+        a{
+            color:white;
+            transition: color .2s;
+            &:hover{color:#4180CB}
+        }
+    } 
+    .location{
+        i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+
+/*#row1{
+    margin-left: 350px;
+}*/
+
+
+form{
+
+    padding: 50px;
+    background-color: white;
+    margin: 22%;
+    width: 60%;
+    height: 60%;
+    margin-top: 80px;
+
+
+
+
+}
+
+.thumbnail {
+    margin-top: 50px;
+
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+#kitNumber{
+    width: 10%;
+}
+
+
+
+.playerClass{
+    margin: 13px;
+}
+
+#border1{
+    border: 1px solid black;
+}
+
+
+#productHeader{
+    border-bottom: 1px solid grey;
+    margin: 30px;
+}
+
+
+
+

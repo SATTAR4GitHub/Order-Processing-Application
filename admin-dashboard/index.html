@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+This is a HTML file contains a form with fields for user id and password. 
+-->
+<html>
+    <head>
+        <title>Niko Apparel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  type="text/css" href="main.css">
+        <link rel="stylesheet"  type="text/css" href="styling.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            h1{
+                color: #C71585;
+                font-family: Ariel,sans-serif,Lucida Sans; 
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" id="header" href="https://csunix.mohawkcollege.ca/~000394648/teamOrderApp/index.php">Niko Apparel Systems</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="https://csunix.mohawkcollege.ca/~000394648/teamOrderApp/index.php" id="home">Home</a></li>
+                            <li><a href="https://csunix.mohawkcollege.ca/~000394648/teamOrderApp/login.php" id="order">Create Order</a></li>
+                            <li><a href="http://nikoapparel.ca/contact/" id="contact">Contact</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+        
+        <div class="container"> 
+            <h2>Sign in with Your Admin ID and Password</h2>
+            <form action ='admin.php' method='POST' class='formdesign'>
+                <label>User ID:</label> <input type='text' name='userid' size='30'  required class ='forminput'><br>
+                <label>Password:</label> <input type='password' name='password' size='30' required class ='forminput'><br><br><br>
+                
+                <label></label><input type='submit' value='Submit' class ='button'>
+            </form>
+        </div> 
+    </body>
+</html>
